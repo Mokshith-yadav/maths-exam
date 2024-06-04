@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang=""en>
+ <head>
+	<meta charset="utf-8>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+	<meta name="viewport" content="width=device-width, intialial-scale=1.0"/>
+	<title>MOKSHITH Portfoliio</title>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="./styles.css"/>
+	<style  type="text/css">
+        .fa-brands_fa-linkedin
+        {
+          font-size: 70px;
+          color:skyblue;
+        }
+        </style>
+ </head>
+ <body>
+	<header>
+		<nav id ="nav-bar">
+			<ul class="nav-links">
+				<li><a href="#welocome" class="nav-link">Welcome</li>
+				<li><a href="#projects" class="nav-link">My Resume</li>
+				<li><a href="#contacts" class="nav-link">Contact</li>
+			</ul>
+		</nav>
+	 </header>
+    <section id="welocome-section">
+        <h1>Hellow, I'm MOKSHITH.</h1>
+        <p>Python Developer</p>
+    </section>
+    <section id="projects">
+        <h1>This is my resume</h1>
+      <div class=projects>
+        <a herf="#" class="projects-title">
+            <img src="file:///C:/Users/Mokshith Yadav/Downloads/WhatsApp Image 2024-06-04 at 7.53.14 PM.jpeg" alt="">
+        </a>
+       </div>
+    </section>
+    <section id="contacts">
+        <h1>Let's work together...</h1>
+        <p class=="question">Are you intersted with me?</p>
+     <div class="social-media">
+        <a target="_blank" href="https://www.linkedin.com/in/mokshith-srinivas-yadav-043117270/"><i class="fa-brands_fa-linkedin"></i>
+            <p>Linkedin</p>
+        </a>
+
+        <a target="_blank" href="https://github.com/Mokshith-yadav" class="social-media">
+           <i class="ri-github-fill"></i>
+            <p>Github</p>
+        </a>
+        <a target="_blank" href="mokshithmokshith@gamil.com" class="social-media">
+           <i class="ri-mail-fill"></i>
+            <p>E-mail: mokshithmokshith@gamil.com</p>
+        </a>
+        <a target="_blank" href="" class="social-media">
+            <i class="ri-phone-fill"></i>
+             <p>Phone Number: 8919634793</p>
+        </a>
+     </div>
+    </section>
+    <footer>Created by Mokshith Srinivas Yadav June 20204</footer>
+ </body>
+</html>
